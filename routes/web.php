@@ -26,3 +26,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/index', [App\Http\Controllers\IndexController::class,'index']);
+

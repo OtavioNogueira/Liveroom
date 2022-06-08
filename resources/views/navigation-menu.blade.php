@@ -16,7 +16,6 @@
                             {{ __('Dashboard') }}
                         </x-jet-nav-link>
                     </div> -->  <!-- essa parte tem que ser mudada para, ao clicar na imagem, levar para a pagina principal dos podcasts--> 
-            
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
                 <!-- Teams Dropdown -->
