@@ -27,5 +27,9 @@ Route::middleware([
     })->name('dashboard');
 });
 
+Route::get('/liveroom', [App\Http\Controllers\IndexController::class,'fetch']);
+
 Route::get('/index', [App\Http\Controllers\IndexController::class,'index']);
+
+Route::post('/insert_video', [App\Http\Controllers\IndexController::class,'insert'])->name('insert.file');
 
