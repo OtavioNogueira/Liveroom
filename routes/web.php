@@ -1,6 +1,8 @@
 <?php
 
+use App\Models\video;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,4 +34,8 @@ Route::get('/liveroom', [App\Http\Controllers\IndexController::class,'fetch']);
 Route::get('/index', [App\Http\Controllers\IndexController::class,'index']);
 
 Route::post('/insert_video', [App\Http\Controllers\IndexController::class,'insert'])->name('insert.file');
+
+// Route::get('/insert_video', function (Request $request) {
+//     var_dump($request->all());   
+// });
 
