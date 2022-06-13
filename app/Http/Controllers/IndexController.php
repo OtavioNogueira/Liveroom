@@ -37,4 +37,8 @@ class indexController extends Controller
 
        return redirect('/index');
     }
+
+    function liveroom(){
+        return view("liveroom");
+    }
  }

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href=" {{  asset('css/style.css')  }} "/> 
 </head>
 <body>
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+            <a href="{{ url('/liveroom') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Acessar o liveroom</a>      
+</div>
     <div> 
         <h1> pagina para upar os podcasts </h1> 
     <div> 
