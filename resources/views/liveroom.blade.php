@@ -27,10 +27,11 @@
         </div>
   <div id=uploadedvideo> 
       @foreach($data as $row)
-        <video width="550" height="280">
+        <video width="300" height="180">
             <source src="{{asset('upload')}}/{{$row['video']}}" type="video/mp4">
         </video>
-        <h5> {{$row['titulo']}} </h5>
+        <a href="{{asset('upload')}}/{{$row['video']}}"> <button> assistir </button> </a> 
+      <a href="{{asset('upload')}}/{{$row['video']}}"> <h5> {{$row['titulo']}} </h5> </a> 
       @endforeach
   </div>
 </body>
