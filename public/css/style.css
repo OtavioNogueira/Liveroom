@@ -4,21 +4,44 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  color: #ebebeb;
+  
 }
 body{
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: dodgerblue;
+  background-color: #010c7b;
 }
 .drag-area{
-  border: 2px dashed #fff;
+  border: 2px dashed #ebebeb;
   height: 500px;
-  width: 700px;
+  width: 720px;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Sarala' ,sans-serif;
+}
+.linklv{
+  margin-bottom: 50px;
+  margin-right: 100px;
+  font-weight: 250;  
+
+}
+
+.botaoenviar{
+  font-family: 'Sarala' ,sans-serif;
+    background-color: #ebebeb;
+    width: 80px;
+    height: 25px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1e1e1e;
+    margin-top:10px;
 }
