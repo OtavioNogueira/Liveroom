@@ -8,11 +8,14 @@
     <link rel="stylesheet" href=" {{  asset('css/style.css')  }} "/> 
 </head>
 <body>
+    <div class="linklv">
 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            <a href="{{ url('/liveroom') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Acessar o liveroom</a>      
+            <a href="{{ url('/liveroom') }}" class="text-sm text-gray-700 dark:text-gray-500 underline"><strong>Acesse seu Liveroom</strong></a>      
 </div>
+    </div>
+
     <div> 
-        <h1> pagina para upar os podcasts </h1> 
+        <h1> Adicione aqui seus podcasts </h1> 
     <div> 
     <div class="drag-area"> 
         <form method="post" action="{{ Route('insert.file') }}" enctype="multipart/form-data">
@@ -25,7 +28,7 @@
                     {{ $errors->first('video') }}
                 @endif    
             </p>
-            <input type="submit" name="click"/>   
+            <input class="botaoenviar" type="submit" name="click"/>   
         </form>      
     </div> 
     <div> 
