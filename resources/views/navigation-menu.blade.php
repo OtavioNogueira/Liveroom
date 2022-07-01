@@ -1,18 +1,20 @@
+<link rel="stylesheet" href="/css/cabecalho.css">
+
 <nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="cabecalho">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
                 <div class="logoimg">
                     <a href="{{ url('/liveroom') }}">
-                    <img src="{{asset('img/liveroom2.png')}}" alt="logo">
+                    <img src="{{asset('img/Logo10.png')}}" alt="logo">
                     </a>
                 </div>
             </div>
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <a href="{{ url('/liveroom') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Podcasts</a>
+                    <a href="{{ url('/liveroom') }}" class="linkcabecalho">Podcasts</a>
                 </div>  
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
