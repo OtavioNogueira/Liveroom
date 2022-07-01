@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: #ebebeb;
+  color: #2a85bc;
   
 }
 body{
@@ -12,11 +12,11 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #010c7b;
+  background-color: #1e1e1e;
 }
 
 .drag-area{
-  border: 2px dashed #ebebeb;
+  border: 2px dashed #2a85bc;
   height: 500px;
   width: 720px;
   border-radius: 5px;
