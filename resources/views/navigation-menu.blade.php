@@ -7,13 +7,13 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="logoimg">
-                    <a href="{{ url('/liveroom') }}">
+                    <a href="{{ url('/') }}">
                     <img src="{{asset('img/Logo10.png')}}" alt="logo">
                     </a>
                 </div>
             </div>
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="pdcasts">
                     <a href="{{ url('/liveroom') }}" class="linkcabecalho">Podcasts</a>
                 </div>  
 

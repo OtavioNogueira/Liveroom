@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="/css/dashboard.css">
     <title>Liveroom</title>
 </head>
-<body>
+<body>   
+<div class="extra">
+            <img id="microfone" src="/img/pngwing.com (1).png"/> 
+        </div>
     <div class="mt-2" x-show="! photoPreview">
         @if (Auth::user()->profile_photo_path)
             <div class="foto&nome">
-                <img class="h-20 w-20 rounded-full object-cover" src="/storage/{{Auth::user()->profile_photo_path }}" alt="{{ Auth::user()->name }}" />
+                <img class="h-96 w-96 rounded-full object-cover" src="/storage/{{Auth::user()->profile_photo_path }}" alt="{{ Auth::user()->name }}" />
                 {{ Auth::user()->name }}
             </div>
         @else
@@ -19,7 +22,7 @@
         @endif
     </div>
     <div class="inserirpodcast">
-            <a href="{{ url('/index') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Adicionar Podcast</a>      
+            <a href="{{ url('/index') }}" class="linkadd">Adicionar Podcast</a>      
     </div>
 </body>
 </html>

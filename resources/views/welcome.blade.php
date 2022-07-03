@@ -57,13 +57,13 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                    <a href="{{ url('/liveroom') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Acessar Podcasts</a>
-                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Perfil</a>
+                    <a href="{{ url('/liveroom') }}" class="text-sm text-gray-700 dark:text-gray-500">Acessar Podcasts</a>
+                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500">Perfil</a>
                     @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Login</a>
+                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500">Login</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Cadastrar</a>
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500">Cadastrar</a>
                         @endif
                     @endauth
                 </div>

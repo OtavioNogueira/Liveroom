@@ -29,20 +29,18 @@ body{
 .linklv{
   margin-bottom: 50px;
   margin-right: 100px;
-  font-weight: 250;  
-
+  font-weight: 250; 
 }
-
 .botaoenviar{
-  font-family: 'Sarala' ,sans-serif;
+  border: 0;
     background-color: #ebebeb;
+    color:#1e1e1e;
+    border-radius: 8px;
     width: 80px;
     height: 25px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 20px;
-    color: #1e1e1e;
-    margin-top:10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.botaoenviar:hover{
+  color: #2a85bc;
 }

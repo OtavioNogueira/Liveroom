@@ -4,8 +4,28 @@
     box-sizing: border-box;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.linkadd{
+    margin-left: 40px;
+    color: #2a85bc;
+    font-size: 20px;
+}
+.linkadd:hover{
+    color: #ebebeb;
+}
 body{
+    background-color: #1e1e1e;
+}
+#microfone {
+    position: absolute;
+    background: transparent;
+}
+
+.extra{
+    position: absolute;
+    bottom: -250px;
+    right: -250px;
+    width: 800px;
+    height: 700px;
+    border-radius: 33%;
     background-color: #2a85bc;
-    
-    
 }

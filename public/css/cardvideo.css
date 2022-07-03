@@ -1,3 +1,53 @@
+.cabecalho{
+    padding-right: 20px;
+ }
+header{
+    background-color: #2a85bc;
+    height: 64px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1e1e1e;
+}
+.linkperfil{
+    margin-left: 48%;
+    color: #2a85bc;
+    font-size: 30px;
+    text-decoration: none;
+}
+.linkperfil:hover{
+    color: #ebebeb;
+  }
+
+button{
+    border: 0;
+    background-color: #2a85bc;
+    color:#ebebeb;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+}
 video{
+    justify-content: space-around;
     display: flex;
+}
+.titulovideo{
+    color: #2a85bc;
+    text-decoration: none;
+    font-size: 30px;
+}
+.titulovideo:hover{
+    color: #ebebeb;
+}
+img{
+    margin-left: 20px;
+    margin-top: 15px;
+    max-width: 10em;
+}
+#uploadedvideo{
+    margin-left: 20px;
+    margin-top: 5%;
 }
