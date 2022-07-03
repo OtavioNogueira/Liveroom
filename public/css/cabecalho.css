@@ -9,9 +9,22 @@ html, body{
     overflow-y: hidden;
     overflow-x: hidden;
 }
+.pdcasts{
+    align-self: center;
+}
+.linkcabecalho:hover{
+    color: #ebebeb;
+  }
 .linkcabecalho {
-    color: #2a85bc;
-    text-decoration: solid;
+    margin-left: 1034px;
+    border: 0;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #1e1e1e;
+    text-decoration: none;
 }
 .logoimg{
     margin-left: 20px;
@@ -21,5 +34,5 @@ html, body{
  }
  .cabecalho{
     padding-right: 20px;
-    background-color: #1e1e1e;
+    background-color: #2a85bc;
  }
