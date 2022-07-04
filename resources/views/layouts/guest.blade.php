@@ -12,12 +12,13 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel= "stylesheet" href="css/style.css">
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body>
-        <div class="font-sans text-gray-900 antialiased">
+        <div class="bglogin">
             {{ $slot }}
         </div>
     </body>

@@ -1,3 +1,7 @@
+*{
+    overflow-x: hidden;
+}
+
 .cabecalho{
     padding-right: 20px;
  }
@@ -10,16 +14,37 @@ body{
     margin: 0;
     background-color: #1e1e1e;
 }
+section{
+    margin-top: 13px;
+    line-height: 1cm;
+}
 .linkperfil{
-    margin-left: 48%;
+    margin-left: 1400px;
     color: #2a85bc;
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
 }
 .linkperfil:hover{
     color: #ebebeb;
-  }
-
+}
+.linklogin{
+    margin-left: 1400px;
+    color: #2a85bc;
+    font-size: 25px;
+    text-decoration: none;
+}
+.linklogin:hover{
+    color: #ebebeb;
+}
+.linkcadastro{
+    margin-left: 1400px;
+    color: #2a85bc;
+    font-size: 25px;
+    text-decoration: none;
+}
+.linkcadastro:hover{
+    color: #ebebeb;
+}
 button{
     border: 0;
     background-color: #2a85bc;
@@ -43,8 +68,8 @@ video{
     color: #ebebeb;
 }
 img{
-    margin-left: 20px;
     margin-top: 15px;
+    margin-left: 20px;
     max-width: 10em;
 }
 #uploadedvideo{

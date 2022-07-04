@@ -10,7 +10,7 @@
 <body>
     <div class="linklv">
 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            <a href="{{ url('/liveroom') }}" class="text-sm text-gray-700 dark:text-gray-500 underline"><strong>Acesse seu Liveroom</strong></a>      
+            <a href="{{ url('/liveroom') }}" class="acesselink">Acesse seu Liveroom</a>      
 </div>
     </div>
 
@@ -31,8 +31,9 @@
             <input class="botaoenviar" type="submit" name="click"/>   
         </form>      
     </div> 
-    <div> 
-        
-    </div>
+    <div class="extras">
+            <img id="" src=""/> 
+        </div>
+
 </body>
 </html>

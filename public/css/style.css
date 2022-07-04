@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
+  overflow-y: hidden;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +16,15 @@ body{
   min-height: 100vh;
   background-color: #1e1e1e;
 }
-
+.extras{
+  position: absolute;
+  bottom: -250px;
+  right: -250px;
+  width: 400px;
+  height: 800px;
+  border-radius: 32%;
+  background-color: #2a85bc;
+}
 .drag-area{
   border: 2px dashed #2a85bc;
   height: 500px;
@@ -27,9 +37,19 @@ body{
   font-family: 'Sarala' ,sans-serif;
 }
 .linklv{
-  margin-bottom: 50px;
-  margin-right: 100px;
+  margin-left: -350px;
+  margin-bottom: 650px;
+  margin-right: 180px;
   font-weight: 250; 
+}
+.acesselink{
+  margin-left: 30px;
+  font-family: 'Sarala' ,sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+.acesselink:hover{
+  color: #ebebeb;
 }
 .botaoenviar{
   border: 0;
@@ -43,4 +63,21 @@ body{
 }
 .botaoenviar:hover{
   color: #2a85bc;
+}
+.bglogin{
+  background-color: #1e1e1e;
+}
+
+.boxlogin{
+  width: 100%;
+  max-width: 28rem;
+  margin-top: 1.5rem;
+  padding-left: 1.5rem; 
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+  border-radius: 0.5rem;
 }
