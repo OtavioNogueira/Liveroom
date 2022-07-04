@@ -14,7 +14,7 @@
             </div>
                 <!-- Navigation Links -->
                 <div class="pdcasts">
-                    <a href="{{ url('/liveroom') }}" class="linkcabecalho">Podcasts</a>
+                    <a href="{{ url('/liveroom') }}"><button class="linkcabecalho">Podcasts</button></a>
                 </div>  
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
