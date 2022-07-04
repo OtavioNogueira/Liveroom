@@ -16,13 +16,27 @@ body{
   min-height: 100vh;
   background-color: #1e1e1e;
 }
-.extras{
+.extras1{
   position: absolute;
-  bottom: -250px;
-  right: -250px;
-  width: 400px;
-  height: 800px;
-  border-radius: 32%;
+  bottom: -35px;
+  left:-40px;
+  width: 180px;
+  height: 520px;
+  border-radius: 20%;
+  background-color: #2a85bc;
+}
+#fotomidia{
+  position: absolute;
+  background: transparent;
+}
+
+.extras2{
+  position: absolute;
+  bottom: -50px;
+  right: -35px;
+  width: 450px;
+  height: 390px;
+  border-radius: 25%;
   background-color: #2a85bc;
 }
 .drag-area{
@@ -37,13 +51,14 @@ body{
   font-family: 'Sarala' ,sans-serif;
 }
 .linklv{
-  margin-left: -350px;
+  margin-left: -450px;
   margin-bottom: 650px;
   margin-right: 180px;
   font-weight: 250; 
 }
 .acesselink{
-  margin-left: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
   font-family: 'Sarala' ,sans-serif;
   font-size: 20px;
   text-decoration: none;

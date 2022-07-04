@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/css/cabecalho.css">
 
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+<nav x-data="{ open: false }" class="bg-white">
     <!-- Primary Navigation Menu -->
     <div class="cabecalho">
         <div class="flex justify-between h-16">
