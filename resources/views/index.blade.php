@@ -8,6 +8,9 @@
     <link rel="stylesheet" href=" {{  asset('css/style.css')  }} "/> 
 </head>
 <body>
+<div class="extras1">
+            <img id="" src=""/> 
+        </div>
     <div class="linklv">
 <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             <a href="{{ url('/liveroom') }}" class="acesselink">Acesse seu Liveroom</a>      
@@ -31,8 +34,8 @@
             <input class="botaoenviar" type="submit" name="click"/>   
         </form>      
     </div> 
-    <div class="extras">
-            <img id="" src=""/> 
+    <div class="extras2">
+            <img id="fotomidia" src="/img/midia.jpg"/> 
         </div>
 
 </body>
